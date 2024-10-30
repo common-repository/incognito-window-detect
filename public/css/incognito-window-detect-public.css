@@ -1,0 +1,30 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .incognito_mode_isPrivateMode{
+	position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    z-index: 999999;
+ }
+ .incognito_mode_isPrivateMode__overlay{
+     height:100%;
+     top:0;
+ }
+
+ .incognito_mode_isPrivateMode__overlay p{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+ }
+
+ .incognito_mode_isPrivateMode p{
+	margin: 0;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    padding: 6px;
+ }
